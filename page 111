@@ -1,0 +1,7 @@
+# tip, tax and final price (page 111)
+
+original_price = float(input("Original price : "))
+tip = original_price * 0.1
+sales_tax = original_price * 0.07
+final_price = original_price + tip + sales_tax
+print("Tip is ", tip, ",", "Tax is ", sales_tax, ",", "Final price is ", final_price)
